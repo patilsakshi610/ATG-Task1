@@ -1,0 +1,121 @@
+.maindiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.solocard{
+    max-width: 629px;
+    margin-bottom: 1rem;
+    border: 1px solid #E0E0E0;
+}
+.category{
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+}
+.category > span {
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.title{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.8rem;
+}
+.title > h1{
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 1.375rem;
+}
+
+.profile > img {
+    height: 3rem;
+    margin-right: 0.6rem;
+}
+.profile > span{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.view > span{
+    margin-left: 0.5rem;
+    color: #525252;
+}
+.bottomright{
+    display: flex;
+    align-items: center;
+}
+.share{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EDEEF0;
+    padding: 0.5rem 0;
+    margin-left: 1rem;
+    border-radius: 2px;
+    width: 2.625rem;
+}
+.postright{
+    width: 20%;
+}
+.location{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom: 1px solid #B8B8B8;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+}
+.groups{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    justify-content: space-between;
+}
+.grp{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+.follow{
+    background-color: #EDEEF0;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.875rem;
+    cursor:pointer;
+}
+
+.followed{
+    background-color: #000000;
+    color: #fff;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.875rem;
+    cursor:pointer;
+}
+.edit{
+    height: 3.4rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    display: none;
+}
+
+
+@media (max-width: 780px){
+    .postright{
+        display: none;
+    }
+    .cards{
+        width: 100%;
+    }
+    .solocard{
+        max-width: 100%;
+    }
+    .edit{
+        display: block;
+    }
+}

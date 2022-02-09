@@ -1,0 +1,21 @@
+.section{
+    margin: 0 10rem;
+}
+
+@media (max-width: 1200px){
+    .section{
+        margin: 0 8rem;
+    }
+}
+
+@media (max-width: 1000px){
+    .section{
+        margin: 0 5rem;
+    }
+}
+
+@media (max-width: 780px){
+    .section{
+        margin: 0;
+    }
+}

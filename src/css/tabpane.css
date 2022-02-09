@@ -1,0 +1,52 @@
+.tab{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E0E0E0;
+    margin: 3rem 0 2rem 0;
+    gap: 1rem;
+}
+
+.tabnav {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.tabbuttons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0.8rem 0;
+}
+.post{
+    display: none;
+}
+.post > p{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.filter{
+    background-color: #F1F3F5;
+    border: none;
+    font-weight: 500;
+    display: none;
+}
+
+@media (max-width: 780px){
+    .tabnav{
+        display: none;
+    }
+    .tabbuttons{
+        display: none;
+    }
+
+    .tab{
+        margin: 2rem 1rem 2rem 1rem;
+        border: none;
+    }
+    .post{
+        display: block;
+    }
+    .filter{
+        display: block;
+    }
+}

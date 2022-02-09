@@ -1,0 +1,69 @@
+
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    align-items: center;
+}
+.search-bar{
+    display:flex;
+    align-items: center;
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+}
+.landdesk{
+    width: 100%;
+}
+.landmobile{
+    display: none;
+    width: 100%;
+}
+.ant-modal-body{
+    padding: 0;
+}
+.message{
+    background-color: #EFFFF4;
+    color: #008A45;
+    padding: 1rem 2rem;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+.message > p{
+    margin: 0;
+}
+.create{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+.cred{
+    display: flex;
+    width: 100%;
+    gap: 1.5rem;
+    margin: 0 1.5rem 1.5rem 1.5rem;
+}
+.acc{
+    display: flex;
+    align-items: center;
+}
+/* .ant-input{
+    background-color: #F7F8FA;
+} */
+
+
+@media (max-width: 780px){
+    .top-bar{
+        display: none;
+    }
+    .createacc {
+        font-size: 13px;
+    }
+    .landdesk{
+        display: none;
+    }
+    .landmobile{
+        display: block;
+    }
+}
